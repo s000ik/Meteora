@@ -24,7 +24,7 @@ export default function SearchBox(props: Props) {
         type="text"
         value={props.value}
         onChange={props.onChange}
-        placeholder="Where shall we go?"
+        placeholder="Where to next?"
         className="px-4 py-2 w-[230px] border border-yellow-300 rounded-l-md focus:outline-none  focus:border-yellow-500 h-full"
       />
       <button className="px-4 py-[9px] bg-yellow-400 text-white rounded-r-md focus:outline-none hover:bg-yellow-500  h-full">
