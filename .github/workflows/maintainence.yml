@@ -30,7 +30,7 @@ jobs:
       - name: Day Check
         id: check
         run: |
-          DAYS=$(( $RANDOM % 3 + 2 ))
+          DAYS=$(( $RANDOM % 5 + 4 ))
           DAY_OF_YEAR=$(date +%j)
           if [ $(( $DAY_OF_YEAR % $DAYS )) -eq 0 ]; then
             echo "::set-output name=should_run::true"
